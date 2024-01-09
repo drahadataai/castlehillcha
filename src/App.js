@@ -53,7 +53,7 @@ class App extends React.Component {
             </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src="img/banner.jpeg" className="d-block w-100" alt="..." style={{ paddingLeft: "0em", paddingRight: "0em", width: '80vw' }}/>
+                <img src="img/banner.jpg" className="d-block w-100" alt="..." style={{ paddingLeft: "0em", paddingRight: "0em", width: '80vw' }}/>
                   <div className="carousel-caption">              
                   </div>
               </div>
