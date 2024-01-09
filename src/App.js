@@ -87,14 +87,14 @@ class App extends React.Component {
 
               </div>
                 <div className = "col-md-6 skills-bar">
-                 <img src="img/xiufang_zhao.jpeg" className="d-block w-100" style = {{paddingTop: "0em"}} alt="..." /> 
+                 <img src="img/xiufang_zhao.jpg" className="d-block w-100" style = {{paddingTop: "0em"}} alt="..." /> 
               </div>
             </div>
 
           </div>
         </section>
 
-        <section id="services" style={{backgroundImage: "url(img/our_services_background.jpeg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))"}}>
+        <section id="services" style={{backgroundImage: "url(img/our_services_background.jpg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))"}}>
           <div className="container">     
             <h1>Our Services</h1>
             <div className="row services">
@@ -230,7 +230,7 @@ class App extends React.Component {
             </div>
           </section>
 
-          <section id="services" style={{backgroundImage: "url(img/our_services_background.jpeg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))"}}>
+          <section id="services" style={{backgroundImage: "url(img/our_services_background.jpg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))"}}>
           <div className="container">     
             <h1>What we can treat</h1>
             <div className="row services">
@@ -329,7 +329,7 @@ class App extends React.Component {
           <section id="real cases">
 
             <div className="container">
-              <h1 style = {{paddingBottom: "1em"}}>Real Cases</h1>
+              <h1 style = {{paddingBottom: "1em", paddingTop: "3em"}}>Real Cases</h1>
               <div className="row  project-showcase" style = {{paddingBottom: "5em"}}>
                 <div className = "col-md-12 project-showcase">
                   <h2> Case one (Initial consultation at 2/12/2016) </h2>
