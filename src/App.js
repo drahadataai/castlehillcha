@@ -98,7 +98,7 @@ class App extends React.Component {
           <div className="container">     
             <h1>Our Services</h1>
             <div className="row services">
-              <div className="col-md-3 text-center">
+              <div className="col-md-4 text-center">
                 <div className="icon">
                   <i className="fa fa-user-md"></i>            
                 </div>
@@ -107,7 +107,7 @@ class App extends React.Component {
 
               </div> 
 
-              <div className="col-md-3 text-center">
+              <div className="col-md-4 text-center">
                 <div className="icon">
                   <i className="fa fa-user-md"></i>          
                 </div>
@@ -120,7 +120,7 @@ class App extends React.Component {
               </div> 
 
 
-              <div className="col-md-3 text-center">
+              <div className="col-md-4 text-center">
                 <div className="icon">
                   <i className="fa fa-user-md"></i>          
                 </div>
@@ -130,7 +130,7 @@ class App extends React.Component {
                 </p>
               </div> 
 
-              <div className="col-md-3 text-center">
+              <div className="col-md-6 text-center">
                 <div className="icon">
                   <i className="fa fa-user-md"></i>          
                 </div>
@@ -141,7 +141,18 @@ class App extends React.Component {
 
               </div> 
 
- 
+
+              <div className="col-md-6 text-center">
+                <div className="icon">
+                  <i className="fa fa-user-md"></i>          
+                </div>
+                <LinkPage to= '/'><button type="button" className = "btn btn-primary" style = {{'backgroundColor': 'Transparent', 'outline':'none', 'border': 'none'}}> <h3> Cupping </h3> </button></LinkPage>
+
+                <p> Helps to promote the circulation and eliminate toxin
+                </p>
+
+              </div> 
+
             </div>
           </div>
         </section>
@@ -221,6 +232,24 @@ class App extends React.Component {
                 <div className = "col-md-6">
                   <div className = "project-img"> 
                     <img src="img/teabag.jpg" className="img-responsive" style = {{paddingRight: "10em", paddingBottom: "2em", paddingLeft: "0em"}}/>  
+                  </div>
+
+                </div>
+                
+              </div>
+
+              <div className="row  project-showcase">
+                <div className = "col-md-6 project-showcase">
+                  <h2> Cupping </h2>
+                  <div className = "project-content"> 
+                    Cupping is a classic Chinese Medicine treatment method which can help to promote the circulation and eliminate toxins from the body. During the treatment, Air is drawn out of the glass cups to create a vacuum when placed on the skin. The cups can be placed over dedicated acupuncture points, and/or on painful areas or knots. It is particularly usefully when the Chi is blocked at certain points or when it needs to be drawn out to the surface from deeper muscles. Cupping is commonly used in conjunction with an acupuncture treatment, although may be used alone for those with an aversion to needles. The cupping is effective, particularly in the musculoskeletal pain.                            
+                  </div>
+
+                </div>
+
+                <div className = "col-md-6">
+                  <div className = "project-img"> 
+                    <img src="img/cupping.jpg" className="img-responsive" style = {{paddingRight: "10em", paddingBottom: "2em", paddingLeft: "0em"}}/>  
                   </div>
 
                 </div>
@@ -430,9 +459,9 @@ class App extends React.Component {
                 <div className="col-12 col-sm-12 col-md-4">
                   <h5> Chinese Herbs and Acupuncture </h5>
                   <p>80 Cecil Avenue, Castle Hill, NSW 2154</p>     
-                  <p>Phone:(02)8677 7884</p> 
-                  <p>Email: info@castlehillcha.com.au</p>  
-                  <p>Copyright@2024</p>                     
+                  <p>Phone:(02)8677 7884</p>
+                  <p>Mobile: 0434195770</p> 
+                  <p>Email: ellenzhaom@gmail.com</p>                     
                 </div>
                 
                 <div className="col-12 col-sm-12 col-md-4">
@@ -440,31 +469,38 @@ class App extends React.Component {
                   <table>
                     <tbody>
                       <tr>
-                        <td>Monday</td>
-                        <td>  Closed</td>
+                        <td>MON</td>
+                        <td> </td>
+                        <td>  11am - 8pm</td>
                       </tr>
                       <tr>
-                        <td>Tuesday</td>
-                        <td>  9am - 8pm</td>
+                        <td>TUE  </td>
+                        <td> </td>                        
+                        <td>  11am - 8pm</td>
                       </tr>
                       <tr>
-                        <td>Wednesday</td>
-                        <td>  9am - 8pm</td>
+                        <td>WED</td>
+                        <td> </td>                        
+                        <td>  11am - 8pm</td>
                       </tr>
                       <tr>
-                        <td>Thursday</td>
-                        <td>  9am - 8pm</td>
+                        <td>THUR</td>
+                        <td></td>                        
+                        <td>  11am - 8pm</td>
                       </tr>
                       <tr>
-                        <td>Friday</td>
-                        <td>  9am - 8pm</td>
+                        <td>FRI</td>
+                        <td></td>                        
+                        <td>  11am - 8pm</td>
                       </tr>
                       <tr>
-                        <td>Saturday</td>
-                        <td>  10am - 2pm</td>
+                        <td>SAT</td>
+                        <td></td>                        
+                        <td>  11am - 8pm</td>
                       </tr>
                       <tr>
-                        <td>Sunday</td>
+                        <td>SUN</td>
+                        <td> </td>                        
                         <td>  Closed</td>
                       </tr>
                     </tbody>
@@ -472,9 +508,17 @@ class App extends React.Component {
                 </div>
 
 
+                <div className="col-12 col-sm-12 col-md-4">
+                  <h5> Fees & Payments </h5>
+                  <p>Initial consultation fee: $100</p>                  
+                </div>
+
         </div>
 
         
+      </div>
+      <div className="text-center">
+        <p>Developed by Dr Aha Data and AI Technology PTY LTD. Copyright@2024</p>
       </div>
       
     </section>
